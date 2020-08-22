@@ -1,0 +1,5 @@
+   func subNumberInput(_ number: String) {
+            guard let currentOperation = currentOperation else {
+                currentInput -= number
+                return
+            }
